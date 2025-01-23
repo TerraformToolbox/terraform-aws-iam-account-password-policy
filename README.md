@@ -46,7 +46,7 @@ A Terraform module for creating and managing IAM account password policies.
 
 ```
 module "password_policy" {
-  source = "https://github.com/TerraformToolbox/terraform-aws-iam-account-password-policy"
+  source = "github.com/TerraformToolbox/terraform-aws-iam-account-password-policy"
 
   allow_user_change = true
   hard_expiry       = false
